@@ -144,7 +144,7 @@ samsung_price = fdr.DataReader('005930', '2024-01-01')
 ```python
 import OpenDartReader
 
-api_key = "너의_OPEN_DART_API_KEY"
+api_key = "OPEN_DART_API_KEY"
 dart = OpenDartReader(api_key)
 
 dart.company('005930')
